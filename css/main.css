@@ -1,0 +1,60 @@
+html { 
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+#content {
+float: center;
+width: 40%;
+padding-top: 1.5cm;
+padding-left: 1.5cm;
+}
+
+#footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-left: 1.5cm;
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+    
+.parbox {
+    background-color: #ffffff;
+    padding: 1ex 1ex 1ex 1ex;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.parboxtight {
+    background-color: #ffffff;
+    padding: 0 1ex 0 1ex;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
