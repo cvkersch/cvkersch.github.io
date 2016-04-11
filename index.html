@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+background-size: cover;
+height: 100%;
+}
+
+body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+#content {
+float: center;
+width: 40%;
+padding-top: 1.5cm;
+padding-left: 1.5cm;
+}
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+clear:both;
+padding-left: 1.5cm;
+
+} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+    
+.parbox {
+background-color: #ffffff;
+padding: 1ex 1ex 1ex 1ex;
+opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+.parboxtight {
+background-color: #ffffff;
+padding: 0 1ex 0 1ex;
+opacity: 0.8;
+  filter: alpha(opacity=80);
+
+}
+
+</style>
+</head>
+<body>
+
+<div id="wrap">
+
+	<div id="main">
+	  <div id="example1">
+	    <div id="content">
+	      	   <h1><span class="parboxtight">Clara Vankerschaver</span></h1>
+	      <p class="parbox">
+<span class="bgtext">Clara Vankerschaver graduated as a textile designer in 2010 at KASK &ndash;
+School of Arts, Ghent, where
+she is currently working as a doctoral researcher
+on the project <em>Textile as a vessel for tacit knowledge</em>.  In this
+project various craft strategies are explored in search of effective
+transmission of tacit knowledge. Her work emerges from a persistent inquiry
+into contemporary textile design practice. In particular, there is a focus on
+communal and constitutive aspects of design to go beyond the conventional
+development and production of fabrics, arriving at a more versatile
+understanding of the forces that generate design.</span></p>
+</div>
+</div>
+
+	</div>
+
+</div>
+
+<div id="footer">
+  <p><span class="parboxtight">clara[dot]vankerschaver[at]gmail[dot]com</span><br />
+  <span class="parboxtight">commissions &ndash; lesson plans &ndash; collaborations</span></p>
+</div>
+
+  
+
+</body>
+</html>
