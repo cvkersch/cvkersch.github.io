@@ -1,5 +1,5 @@
 html { 
-    background: url(../images/background.jpg) no-repeat center center fixed; 
+    background: url(../Clara (foto fien muller).jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,7 @@ html {
 
 body {
     height: 100%;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, times;
 }
 
 #wrap {
@@ -48,7 +48,7 @@ body:before {
 .parbox {
     background-color: #ffffff;
     padding: 1ex 1ex 1ex 1ex;
-    opacity: 0.8;
+    opacity: 0.0;
     filter: alpha(opacity=80);
 }
 
@@ -56,6 +56,6 @@ body:before {
     background-color: #ffffff;
     padding: 0 1ex 0 1ex;
     opacity: 0.8;
-    filter: alpha(opacity=80);
+    filter: alpha(opacity=0);
 }
 
