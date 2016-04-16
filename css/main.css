@@ -56,6 +56,6 @@ body:before {
     background-color: #ffffff;
     padding: 0 1ex 0 1ex;
     opacity: 0.8;
-    filter: alpha(opacity=80);
+    filter: alpha(opacity=0);
 }
 
